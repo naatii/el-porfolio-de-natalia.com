@@ -1,0 +1,20 @@
+*{
+  background: aquamarine;
+  box-sizing: border-box;
+}
+h1{
+  text-align: center;
+  text-shadow: #555555 5px 3px;
+}
+#iframes{
+  display: inline-block;
+}
+.periodico1{
+  width: 49%;
+  height: 100vh;
+}
+#periodico3{
+  margin-top: 2em;
+  width: 100%;
+  height: 100vh;
+}

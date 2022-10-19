@@ -1,0 +1,132 @@
+*{
+  background: blanchedalmond;
+  box-sizing: border-box;
+  font-family: Bahnschrift;
+
+}
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+/*Cabezera*/
+h1{
+  text-align: center;
+  box-shadow: burlywood 3px 3px;
+}
+nav{
+  /*position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -180px;
+  margin-left: -350px;*/
+  margin-bottom: -60px;
+  text-align: center;
+
+}
+ul{
+  display: inline-block;
+  list-style: none;
+}
+
+li a{
+  padding: .5em .5em;
+  /*background: burlywood;*/
+  border-radius: .5em;
+  text-decoration: none;
+  color: darkmagenta;
+  font-size: 20px;
+  transition: all .5s;
+
+}
+a:hover{
+
+  font-size: 27px;
+  font-weight: bold;
+}
+#formulario{
+  text-align: center;
+  margin-top: 5em;
+
+}
+button{
+  border: transparent;
+
+}
+
+button a{
+  padding: .5em .5em;
+  box-shadow: 3px 3px 3px 3px rgba(139, 0,  139, 0.5);
+  text-decoration: none;
+  color: darkmagenta;
+  font-size: 20px;
+  transition: all .5s;
+}
+
+/*cuerpo de la página*/
+img{
+  margin-top: -2em;
+  margin-bottom: 1em;
+  text-align: left;
+  width: 90px;
+
+
+}
+section{
+  width: 40em;
+  margin: 0 auto;
+
+}
+
+
+h2{
+  text-align: center;
+  box-shadow: burlywood 3px 3px;
+  margin-bottom: 2em;
+  margin-top: 0;
+  transition: .5s;
+
+}
+h2:hover{
+  font-size: 2em;
+}
+
+.parrafo1v{
+  margin-top: -6em;
+  margin-left: 10em;
+  text-align: right;
+}
+#proyectos{
+  width: 100%;
+  margin: 2em auto;
+
+}
+.parrafo1{
+  margin-top: 3em;
+  border: burlywood .2em solid;
+  border-radius: 1em;
+  padding: 1em 1em;
+}
+.parrafo2{
+  margin: 0 auto;
+  text-align: center;
+  border: burlywood .2em solid;
+  border-radius: 1em;
+  padding: 1em 1em;
+}
+.iframes{
+  display: inline-block;
+  width: 100%;
+}
+#iframe1{
+  width: 49%;
+  height: 100vh;
+  scroll-behavior: smooth;
+
+}
+#iframe2{
+  width: 49%;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
